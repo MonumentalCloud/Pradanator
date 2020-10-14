@@ -15,4 +15,4 @@ THe result is a unrecognizable patches of colors on a humanoid figure, as seen b
 
 On the other hand, VAE's were successful in reproducing variable garments when given the approapriate inputs. However, when the decoder was separated from encoder and was given a random seed input, it failed to create anything resembling the original images.
 
-#THE PROJECT IS STILL IN PROGRESS
+**THE PROJECT IS STILL IN PROGRESS**
