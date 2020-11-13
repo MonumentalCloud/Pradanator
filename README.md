@@ -8,6 +8,12 @@ Two big approaches were taken: GAN and VAE.
 
 After hours of training, GAN and VAE both had its pros and cons.
 
+![Sample Result](https://github.com/MonumentalCloud/Pradanator/blob/main/Sample%20Results/download-12.png)
+![Sample Result](https://github.com/MonumentalCloud/Pradanator/blob/main/Sample%20Results/download-14.png)
+![Sample Result](https://github.com/MonumentalCloud/Pradanator/blob/main/Sample%20Results/download-11.png)
+![Sample Result](https://github.com/MonumentalCloud/Pradanator/blob/main/Sample%20Results/download-10.png)
+
+
 Deep Convolutional GAN, while higher definition than the VAE approach, failed to reproduce design variance in the images.
 The discriminator network, instead of training itself to recognize differnt types of clothing, have instead fit itself to the grand average of the entire collection.
 THe result is a unrecognizable patches of colors on a humanoid figure, as seen below. No matter how random the seed input was, the image never changed. It seems that the generater overfitted to a overgeneralized discriminator network
